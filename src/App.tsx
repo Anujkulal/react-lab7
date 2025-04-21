@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import SampleImg from './sampleImg.webp'
 import './App.css'
 
