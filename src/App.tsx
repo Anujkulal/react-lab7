@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import SampleImg from './sampleImg.webp'
+import SampleImg from './images.jpeg'
 import './App.css'
 
 interface ProfileCardProps {
@@ -38,8 +38,8 @@ const App = () => {
   return (
    <div className="app-container">
     <ProfileCard
-    name="Anonymous"
-    bio="Innovator, entrepreneus, and co-founder of Apple Inc."
+    name="Elon Musk"
+    bio="Founder of SpaceX, Tesla, and Neuralink, known for pushing the boundaries of space travel, electric vehicles, and brain-computer interfaces."
     initialBgColor="linear-gradient(135deg, #add8e6, rgb(146, 23, 23))" />
    </div>
   )
